@@ -14,6 +14,19 @@
     h1 { font-size: 2rem; margin: 0 0 24px; }
     h2 { margin-top: 34px; }
     a { color: #245f50; }
+    .download { margin: 32px 0; }
+    .download h2 { margin: 0 0 14px; font-size: 1.35rem; }
+    .store-links { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+    .store-links a { display: inline-flex; border-radius: 7px; }
+    .store-links a:focus-visible { outline: 3px solid #245f50; outline-offset: 3px; }
+    .store-links img { display: block; width: auto; }
+    .store-links .app-store-badge { height: 40px; }
+    .store-links .google-play-badge { height: 48px; }
+    @media (max-width: 420px) {
+      .store-links { gap: 10px; }
+      .store-links .app-store-badge { height: 40px; }
+      .store-links .google-play-badge { height: 44px; }
+    }
     table { border-collapse: collapse; width: 100%; margin: 18px 0; background: #fff; }
     td { border: 1px solid #d8e2dc; padding: 10px; vertical-align: top; }
     hr { border: 0; border-top: 1px solid #d8e2dc; margin: 28px 0; }
@@ -30,6 +43,17 @@
     </nav>
 <h1>Clariva</h1>
 <p>Clariva is a private journaling and mood tracking app for self-reflection.</p>
+<section class="download" aria-labelledby="download-heading">
+  <h2 id="download-heading">Download Clariva</h2>
+  <div class="store-links">
+    <a href="https://apps.apple.com/pl/app/clariva/id6770478418" target="_blank" rel="noopener noreferrer">
+      <img class="app-store-badge" src="/clariva-pages/assets/download-on-the-app-store.svg" alt="Download on the App Store">
+    </a>
+    <a href="https://play.google.com/store/apps/details?id=com.taraschuiko.clariva" target="_blank" rel="noopener noreferrer">
+      <img class="google-play-badge" src="/clariva-pages/assets/get-it-on-google-play.png" alt="Get it on Google Play">
+    </a>
+  </div>
+</section>
 <ul>
 <li><a href="/clariva-pages/privacy/">Privacy Policy</a></li>
 <li><a href="/clariva-pages/terms/">Terms of Service</a></li>
