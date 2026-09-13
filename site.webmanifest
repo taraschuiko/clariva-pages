@@ -1,0 +1,9 @@
+{
+  "name": "Clariva — Daily Check-In & Mood Tracker",
+  "short_name": "Clariva",
+  "start_url": "/clariva-pages/",
+  "display": "browser",
+  "background_color": "#f5f8f5",
+  "theme_color": "#f5f8f5",
+  "icons": [{ "src": "/clariva-pages/assets/favicon.png", "sizes": "64x64", "type": "image/png" }]
+}
